@@ -392,7 +392,7 @@ public:
 
         // 새로 추가된 파라미터들
         this->declare_parameter<std::string>("device_name", "");
-        this->declare_parameter<std::string>("image_topic", "image_raw");
+        this->declare_parameter<std::string>("image_topic", "camera/image_raw");
         this->declare_parameter<std::string>("camera_info_topic", "camera_info");
 
         /* get parameters */
