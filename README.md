@@ -10,7 +10,7 @@ Install required system and ROS 2 packages:
 ```bash
 sudo apt update
 sudo apt install libv4l-dev v4l-utils
-sudo apt install ros-$ROS_DISTRO-camera-info-manager
+sudo apt install ros-humble-camera-info-manager
 ```
 
 ```bash
